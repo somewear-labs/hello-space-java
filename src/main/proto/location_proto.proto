@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.somewearlabs.gen";
+
+message Location {
+    float longitude = 1;
+    float latitude = 2;
+    // seconds since unix epoch
+    uint64 timestamp = 3;
+}

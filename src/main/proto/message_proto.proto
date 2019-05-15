@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "com.somewearlabs.gen";
+
+message Message {
+    string email = 1;
+    string phoneNumber = 2;
+    // seconds since unix epoch
+    uint64 timestamp = 3;
+    string content = 4;
+}

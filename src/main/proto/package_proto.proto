@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "com.somewearlabs.gen";
+
+message Package {
+    enum PackageType {
+        Unknown = 0;
+        Message = 1;
+        Location = 2;
+    }
+
+    PackageType type = 1;
+    bytes data = 2;
+}
