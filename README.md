@@ -1,5 +1,7 @@
 # hello-space-java
-Sample Spring Boot application demonstrating a webhook &amp; Somewear client implementation.
+Somewear can be configured to forward events to your application using webhooks. We will send http `POST` requests to your application with a JSON-formatted request body. An example of a webhook event payload can be viewed [here](sampleEvents.json).
+
+This project is a sample Spring Boot application demonstrating a Somewear webhook implementation.
 
 ## Demo 
 1. `./gradlew bootRun` - start application
