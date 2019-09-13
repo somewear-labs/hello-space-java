@@ -22,6 +22,14 @@
           "eventId":"fdab869-5da8-4ff7-b5ee-b3441611d981",
           "payload":"CAISEA3OzvTCFWAeF0IYuMXx5gU=",
           "timestamp":"2019-03-13T14:43:36Z"
+        },
+        {
+          "type":"sos",
+          "eventId":"bddab869-5da8-4ff7-b5ee-b3441611d987",
+          "latitude":"37.750007",
+          "longitude":"-122.411573",
+          "timestamp":"2019-03-13T14:43:36Z",
+          "event":"alarm"
         }
       ]
     }
